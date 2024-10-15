@@ -7,7 +7,7 @@
 Package the Blender asset library as an extension plugin.The code was written using GPT-4o.  
 Theoretically, it supports Blender versions after 3.0 (because 3.0 has an asset library).   
 It has been tested to work normally in 3.6 and 4.2. It will be automatically recognized as an extension in versions above 4.2.  
-My [Cashew Nodes asset library](https://github.com/CashewTeam/Cashew-Nodes) uses this tool for packaging.
+My [Cashew Nodes assets library](https://github.com/CashewTeam/Cashew-Nodes) uses this tool for packaging.
 
 # 如何使用 How to use
 ## 1. 下载仓库 Download this repositorie
