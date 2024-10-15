@@ -1,6 +1,6 @@
 bl_info = {
-    "name": "Cashew Nodes 腰果节点组",
-    "version": (1, 1, 0),
+    "name": "Your add-on name 拓展名称",
+    "version": (1, 0, 0),
     "blender": (3, 0, 0),
     "category": "Assets",
 }
@@ -9,7 +9,8 @@ import bpy
 import os
 
 # 定义资产库名称，资产库目录名需要与资产库名称相同 
-ASSET_LIBRARY_NAME = "Cashew Nodes"
+# Define the asset library name. The asset library directory name must be the same as the asset library name.
+ASSET_LIBRARY_NAME = "YourAssetsName"
 
 def load_assets_library():
     # 获取当前插件的路径
