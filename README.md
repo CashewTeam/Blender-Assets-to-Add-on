@@ -1,16 +1,17 @@
 # Blender-Assets-to-Add-ons
-将 Blender 资产库打包为拓展插件。  
+将 Blender 资产库打包为拓展插件。代码使用 GPT-4o 编写。  
 理论上支持 Blender 3.0 之后的版本（因为 3.0 才有资产库），  
 测试在 3.6 和 4.2 都能正常使用，在 4.2 以上版本会自动识别为新版的拓展。  
-
+我的 [Cashew Nodes 资产库](https://github.com/CashewTeam/Cashew-Nodes) 使用这个工具进行打包。
   
-Package the Blender asset library as an extension plugin.  
+Package the Blender asset library as an extension plugin.The code was written using GPT-4o.  
 Theoretically, it supports Blender versions after 3.0 (because 3.0 has an asset library).   
 It has been tested to work normally in 3.6 and 4.2. It will be automatically recognized as an extension in versions above 4.2.  
+My [Cashew Nodes asset library](https://github.com/CashewTeam/Cashew-Nodes) uses this tool for packaging.
 
 # 如何使用 How to use
 ## 1. 下载仓库 Download this repositorie
-点击绿色的Code按钮或者从Releases下载项目zip文件。  
+点击绿色的 Code 按钮或者从 Releases 下载项目 zip 文件。  
 Click the green Code button or download the project zip file from Releases.
 
 ## 2. 修改资产目录名称 Change the asset catalog name
@@ -21,7 +22,7 @@ ASSET_LIBRARY_NAME = "YourAssetsName"
 ```
 ## 3. 自定义拓展信息 Custom extension information
 
-### 对于旧版拓展（4.2以下版本） For Add-ons (versions below 4.2)  
+### 对于旧版拓展（ 4.2 以下版本） For Add-ons (versions below 4.2)  
 Edit __init__.py
 ``` python
 bl_info = {
@@ -31,7 +32,7 @@ bl_info = {
     "category": "Assets",
 }
 ```
-### 对于新版拓展 （4.2及以上版本） For extensions (version 4.2 and above)
+### 对于新版拓展 （ 4.2 及以上版本） For extensions (version 4.2 and above)
 Edit blender_manifest.toml
 ``` toml
 schema_version = "1.0.0"
@@ -56,7 +57,7 @@ tags = ["Geometry Nodes", "Render"]
 blender_version_min = "4.2.0"
 ```
 ## 4. 导入资产文件夹 Import assets folder
-将你的资产文件夹内容放入拓展目录下的`YourAssetsName`文件夹（第二步中输入的名称）  
+将你的资产文件夹内容放入拓展目录下的 `YourAssetsName` 文件夹（第二步中输入的名称）  
 Place the contents of the assets folder into a folder called `YourAssetsName` in the extension directory (the name you entered in step 2)  
 
 
