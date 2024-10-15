@@ -1,10 +1,10 @@
-# Blender-Assets-to-Add-ons
+# Blender-Assets-to-Add-on
 将 Blender 资产库打包为拓展插件。代码使用 GPT-4o 编写。  
 理论上支持 Blender 3.0 之后的版本（因为 3.0 才有资产库），  
 测试在 3.6 和 4.2 都能正常使用，在 4.2 以上版本会自动识别为新版的拓展。  
 我的 [Cashew Nodes 资产库](https://github.com/CashewTeam/Cashew-Nodes) 使用这个工具进行打包。
   
-Package the Blender asset library as an extension plugin.The code was written using GPT-4o.  
+Package the Blender asset library as an extension. The code was written using GPT-4o.  
 Theoretically, it supports Blender versions after 3.0 (because 3.0 has an asset library).   
 It has been tested to work normally in 3.6 and 4.2. It will be automatically recognized as an extension in versions above 4.2.  
 My [Cashew Nodes assets library](https://github.com/CashewTeam/Cashew-Nodes) uses this tool for packaging.
