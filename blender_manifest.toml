@@ -2,11 +2,11 @@ schema_version = "1.0.0"
 
 # Example of manifest file for a Blender extension
 # Change the values according to your extension
-id = "cashew_nodes"
-version = "2.0.0"
-name = "Cashew Nodes 腰果节点组"
-tagline = "实用几何节点、三渲二节点组"
-maintainer = "Con11 <email@address.com>"
+id = "extension_id"
+version = "1.0.0"
+name = "extension name 拓展名称"
+tagline = "extension describe"
+maintainer = "Author 作者 <email@address.com>"
 # Supported types: "add-on", "theme"
 type = "add-on"
 
